@@ -1,0 +1,65 @@
+{
+  "name": "{{name}}",
+  "version": "0.0.1",
+  "description": "{{description}}",
+  "main": "src",
+  "scripts": {
+    "prepublish": "eslint src"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "bin": {
+    "{{command}}": "src/index.js"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/{{owner}}/{{name}}.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "{{author}}",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/{{owner}}/{{name}}/issues"
+  },
+  "homepage": "https://github.com/{{owner}}/{{name}}#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "update-notifier": "^0.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.10.1"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+      "indent": [
+        2,
+        2
+      ],
+      "linebreak-style": [
+        2,
+        "unix"
+      ],
+      "quotes": [
+        2,
+        "single"
+      ],
+      "semi": [
+        2,
+        "always"
+      ],
+      "no-console": [
+        0
+      ]
+    }
+  }
+}
