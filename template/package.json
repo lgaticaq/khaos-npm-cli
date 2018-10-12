@@ -32,7 +32,7 @@
     "update-notifier": "^2.0.0"
   },
   "devDependencies": {
-    "eslint": "5.6.1"
+    "eslint": "5.7.0"
   },
   "eslintConfig": {
     "env": {
