@@ -29,7 +29,7 @@
   "dependencies": {
     "chalk": "^2.0.0",
     "commander": "^2.9.0",
-    "update-notifier": "^2.0.0"
+    "update-notifier": "^5.0.0"
   },
   "devDependencies": {
     "eslint": "5.16.0"
